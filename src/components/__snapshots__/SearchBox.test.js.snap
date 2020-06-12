@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Expect to render SearchBox 1`] = `
+"<div className=\\"pa2\\">
+  <input aria-label=\\"Search Box\\" className=\\"pa3 ba b--green bg-lightest-blue\\" type=\\"search\\" placeholder=\\"search robots\\" onChange={[undefined]} />
+</div>"
+`;

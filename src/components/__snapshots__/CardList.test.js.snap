@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Expect to Render Card List 1`] = `
+"<div>
+  <Card id={1} name=\\"John Snow\\" email=\\"johnsnow@got.com\\" />
+</div>"
+`;
