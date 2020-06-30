@@ -1,6 +1,6 @@
 version: 2.1
 jobs:
-  bobby:
+  build:
     docker:
       - image: circleci/node:8.9 # the primary container, where your job's commands are run
     steps:
