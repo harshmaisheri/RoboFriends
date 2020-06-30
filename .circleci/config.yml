@@ -14,9 +14,9 @@ jobs:
         - checkout # check out the code in the project directory
         - run: echo "Double Trouble"
         
-    workflow:
-        version: 2.1
-        bobby_sally:
-            jobs: 
-                - bobby
-                - sally
+workflow:
+    version: 2.1
+    bobby_sally:
+        jobs: 
+            - bobby
+            - sally
