@@ -2,27 +2,27 @@ version: 2.1
 jobs:
   build:
     docker:
-      - image: circleci/node:8.9 # the primary container, where your job's commands are run
+      - image: circleci/node:8.9
     steps:
-      - checkout # check out the code in the project directory
-      - run: echo "Npm Installing" # run the `echo` command
+      - checkout
+      - run: echo "Npm Installing"
       - run: npm install
       - run: CI=true npm run build
 
   test:
     docker:
-      - image: circleci/node:8.9 # the primary container, where your job's commands are run
+      - image: circleci/node:8.9
     steps:
-      - checkout # check out the code in the project directory
+      - checkout
       - run: echo "Double Trouble"
       - run: npm install
       - run: npm test
 
   hithere:
     docker:
-      - image: circleci/node:8.9 # the primary container, where your job's commands are run
+      - image: circleci/node:8.9
     steps:
-      - checkout # check out the code in the project directory
+      - checkout
       - run: echo "Hi There!!"
 
 workflows:
